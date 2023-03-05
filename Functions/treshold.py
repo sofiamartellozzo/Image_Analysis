@@ -11,3 +11,5 @@ def treshold(treshold, input_img):
 
       if input_img[i][j] >= treshold:
         output_img[i][j] = 255
+
+  return output_img

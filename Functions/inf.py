@@ -4,8 +4,8 @@ def infimum(I1, I2):
 
   shape = I1.shape
 
-  nrows = img1.shape[0]
-  ncols = img1.shape[1]
+  nrows = I1.shape[0]
+  ncols = I1.shape[1]
 
   output = np.zeros(shape)
 

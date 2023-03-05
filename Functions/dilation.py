@@ -1,4 +1,4 @@
-import calRange as cr
+from Functions.calRange import calculateRange
 
 #maximum of neighborhood
 
@@ -17,8 +17,8 @@ def dilation(image, i):
 
       maximum = image[r][c]
 
-      row_fil = cr.calculateRange(i, r, nrows)
-      col_fil = cr.calculateRange(i, c, ncols)
+      row_fil = calculateRange(i, r, nrows)
+      col_fil = calculateRange(i, c, ncols)
 
       for row in row_fil:
         for col in col_fil:
