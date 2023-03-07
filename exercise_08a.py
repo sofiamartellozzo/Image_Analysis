@@ -23,3 +23,7 @@ filter4 = closeOpen(input_img, 1)
 cv2.imwrite("outputs/exercise_08a_output_04_best2.pgm", filter4);
 cv2.imshow("Window: closing(opening())", filter4)
 
+file1 = open('outputs/exercise_08a_output_01.txt', 'w')
+file1.write('3\n4')
+file1.close()
+
