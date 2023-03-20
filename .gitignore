@@ -1,0 +1,7 @@
+.DS_Store
+strudysession/
+bin/
+include/
+lib/
+pyvenv.cfg
+*.pyc
